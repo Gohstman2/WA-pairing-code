@@ -1,5 +1,5 @@
 // server.js
-import express from "express";
+import express from "express"; 
 import cors from "cors";
 import { makeWASocket, useMultiFileAuthState, DisconnectReason } from "@whiskeysockets/baileys";
 import chalk from "chalk";
@@ -72,3 +72,4 @@ app.post("/auth", async (req, res) => {
 });
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+
