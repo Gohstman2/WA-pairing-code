@@ -60,3 +60,4 @@ const startSession = async () => {
 };
 
 startSession().catch(err => console.error(chalk.red.bold('Error:'), err));
+
